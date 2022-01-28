@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.App {
+  max-width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 100vh;
+}
+
+.note {
+  background-color: yellow;
+  color: black;
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre-wrap;
+}
+
+.notes {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  cursor: pointer;
+}
+
+.add {
+  background-color: aqua;
+}
+
+textarea {
+  background-color: aqua;
+  border: none;
+  resize: none;
+  padding-top: 15px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.save-btn {
+  cursor: pointer;
+}
+
+.add-input {
+  background-color: aqua;
+  border-right: none;
+  border-left: none;
+  border: none;
+  border-color: black;
+  border-top: none;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.add-input:focus {
+  outline: none;
+}
+
+.edit-input {
+  background-color: yellow;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.dark-theme {
+  background-color: black;
+  color: white;
+}
+.search {
+  display: flex;
+  align-items: center;
+  background-color: rgb(233, 233, 233);
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 1.5em;
+}
+
+.search input {
+  background-color: rgb(233, 233, 233);
+  border: none;
+  width: 100%;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.theme-btn {
+  cursor: pointer;
+}
+
+.title-input {
+  background-color: yellow;
+  border: none;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.title-input:focus {
+  outline: none;
+}
